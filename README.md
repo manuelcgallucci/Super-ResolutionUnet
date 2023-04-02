@@ -1,7 +1,8 @@
-# Super Resolution of LST images using NDVI gradients at a lower resolution without the ground truth images
+# Convolutional Neural Network modeling for Land Surface Temperature Super Resolution
 
 
-Perform super resolution using MODIS LST images at 1km and NDVI images at 250m to generate an LST output at 250m without having the ground truth data and using the gradient information of the NDVI.  
+The objective is to perform Super Resolution of LST images using NDVI gradients at a lower resolution without the ground truth images.
+This will be done using MODIS LST images at 1km and NDVI images at 250m to generate an LST output at 250m without having the ground truth data and using the gradient information of the NDVI.  
 
 <p float="left">
   <img src="./example_images/final_lst.png" width="400" />
