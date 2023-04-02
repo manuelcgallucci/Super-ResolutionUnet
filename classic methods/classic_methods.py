@@ -22,10 +22,10 @@ def plot_save(x, title, path, vmin=257, vmax=280):
     plt.close()
 
 # Load the path of the entry data
-path_aster="./data/AST_01262017212447_LST_VALIDATION_250.bsq"
-path_lst="./data/MOD_20170126_LST_1km.img"
-path_ndvi1="./data/MOD_20170126_NDVI_1km.img"
-path_ndvi250="./data/MOD_20170126_NDVI_250.img"
+path_aster="../data/AST_01262017212447_LST_VALIDATION_250.bsq"
+path_lst="../data/MOD_20170126_LST_1km.img"
+path_ndvi1="../data/MOD_20170126_NDVI_1km.img"
+path_ndvi250="../data/MOD_20170126_NDVI_250.img"
 
 # Transform the entry data to arrays
 aster= transform_images(path_aster)
