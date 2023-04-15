@@ -6,6 +6,8 @@ from argparse import ArgumentParser
 def create_npz(years):
     """
     Create npz file grouping all the tif LST and NDVI images in the given list of years
+    input :
+    years : A list containing the years for the desired images. Example : [2015,2016]
     """
      
     lst=None
