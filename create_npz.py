@@ -7,7 +7,7 @@ def create_npz(years):
     """
     Create npz file grouping all the tif LST and NDVI images in the given list of years
     input :
-    years : A list containing the years for the desired images. Example : [2015,2016]
+    years : A list containing the years for which we want to create the .npz database. For example, if we put [2015,2016], only images dating from 2015 and 2016 will be used to create the database.
     """
      
     lst=None
