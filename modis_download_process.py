@@ -40,7 +40,7 @@ def calculate_dates_daily(year, month):
     
     return startdates, enddates
 
-def MODIS_Downloader(startdate, enddate, year, product, num_threads, tiles, user="projet3a", password="Projet3AIMT"):
+def MODIS_Downloader(startdate, enddate, year, product, num_threads, tiles, user="efoma", password="Naijament@75"):
     sensor        = product.split(".")[0]
     hdfs_path     = 'MODIS/MOD_{}_{}/hdfs_files'.format(year,sensor)
     
@@ -55,7 +55,7 @@ def MODIS_Downloader(startdate, enddate, year, product, num_threads, tiles, user
         print("Download Error {} From {} to {}".format(hdfs_path, startdate,enddate))
     print("Finish download {} From {} to {}, time cost: {:.4f}".format(hdfs_path, startdate,enddate,time.time()-start_time))
 
-def MODIS_Downloader_DAILY(startdate, enddate, year, product, tiles, user="projet3a", password="Projet3AIMT"):
+def MODIS_Downloader_DAILY(startdate, enddate, year, product, tiles, user="efoma", password="Naijament@75"):
     sensor = product.split(".")[0]
     hdfs_path = 'MODIS/MOD_{}_{}/hdfs_files'.format(year,sensor)
     
